@@ -1,0 +1,5 @@
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain.Model\bin\Debug\Domain.Model.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain.Model\bin\Debug\Domain.Model.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain.Model\obj\Debug\Domain.Model.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain.Model\obj\Debug\Domain.Model.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain.Model\obj\Debug\Domain.Model.csprojResolveAssemblyReference.cache
