@@ -56,3 +56,9 @@ D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\obj\Debug\App.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\obj\Debug\App.pdb
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Domain.Model.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Domain.Model.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Abstractions.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Client.Lightweight.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Abstractions.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Abstractions.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Client.Lightweight.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Client.Lightweight.xml

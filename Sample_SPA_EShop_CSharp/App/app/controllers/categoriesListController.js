@@ -23,7 +23,8 @@ define([
 
         init();
 
-        $scope.save = function(){
+        $scope.save = function(form){
+            debugger;
             categoryService.save($scope.categories);
         };
 

@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{A10F09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Model", "Domain.Model\Domain.Model.csproj", "{BCD713D7-C085-4DC9-B96A-4E180303D1DA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{D2151116-EC14-4F68-A320-DDD087C7C957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.RavenDb", "DataAccess\DataAccess.RavenDb\DataAccess.RavenDb.csproj", "{2CF0B397-B058-42D2-98AB-2EB63619E4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Data", "Domain\Domain.Data\Domain.Data.csproj", "{9B483E65-ACD4-4B41-8B03-849FF49101F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,11 +29,21 @@ Global
 		{BCD713D7-C085-4DC9-B96A-4E180303D1DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCD713D7-C085-4DC9-B96A-4E180303D1DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD713D7-C085-4DC9-B96A-4E180303D1DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF0B397-B058-42D2-98AB-2EB63619E4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF0B397-B058-42D2-98AB-2EB63619E4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF0B397-B058-42D2-98AB-2EB63619E4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF0B397-B058-42D2-98AB-2EB63619E4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B483E65-ACD4-4B41-8B03-849FF49101F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B483E65-ACD4-4B41-8B03-849FF49101F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B483E65-ACD4-4B41-8B03-849FF49101F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B483E65-ACD4-4B41-8B03-849FF49101F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BCD713D7-C085-4DC9-B96A-4E180303D1DA} = {A10F0910-652D-446E-87D9-084AA51AA516}
+		{2CF0B397-B058-42D2-98AB-2EB63619E4E7} = {D2151116-EC14-4F68-A320-DDD087C7C957}
+		{9B483E65-ACD4-4B41-8B03-849FF49101F3} = {A10F0910-652D-446E-87D9-084AA51AA516}
 	EndGlobalSection
 EndGlobal

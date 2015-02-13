@@ -1,0 +1,15 @@
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\obj\Debug\DataAccess.RavenDb.csprojResolveAssemblyReference.cache
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\DataAccess.RavenDb.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\DataAccess.RavenDb.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Domain.Data.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Domain.Model.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Raven.Abstractions.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Raven.Client.Lightweight.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Domain.Model.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Domain.Data.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Raven.Abstractions.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Raven.Abstractions.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Raven.Client.Lightweight.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\bin\Debug\Raven.Client.Lightweight.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\obj\Debug\DataAccess.RavenDb.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DataAccess\DataAccess.RavenDb\obj\Debug\DataAccess.RavenDb.pdb

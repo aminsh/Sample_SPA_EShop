@@ -1,0 +1,7 @@
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\bin\Debug\Domain.Data.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\bin\Debug\Domain.Data.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\bin\Debug\Domain.Model.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\bin\Debug\Domain.Model.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\obj\Debug\Domain.Data.csprojResolveAssemblyReference.cache
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\obj\Debug\Domain.Data.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Data\obj\Debug\Domain.Data.pdb
