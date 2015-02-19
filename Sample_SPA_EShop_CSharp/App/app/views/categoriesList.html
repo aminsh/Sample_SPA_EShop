@@ -19,11 +19,11 @@
 
             <a class="btn btn-primary" ng-click="addCategory()">
                 <i class="glyphicon glyphicon-plus"></i>
-جدید
+                    {{'NEW' | translate}}
             </a>
             <a class="btn btn-success" ng-click="save(form)" ng-disabled="form.$invalid">
                 <i class="glyphicon glyphicon-floppy-disk"></i>
-ذخیره
+                    {{'SAVE' | translate}}
             </a>
             <div ng-repeat="cat in categories" class="container-fluid">
                 <div class="row" style="padding: 5px">
@@ -34,7 +34,7 @@
                         <input class="form-control" ng-model="cat.name" type="text" required>
                         <a class="btn btn-success" ng-click="addProduct(cat)" ng-show="cat.canShowProduct">
                             <i class="glyphicon glyphicon-plus"></i>
-                            محصول جد?د
+                            {{'NEW PRODUCT' | translate}}
                         </a>
                         <div class="items-ctrl">
                             <span class="glyphicon {{cat.canShowProduct ? 'glyphicon-minus' : 'glyphicon-plus'}}" ng-click="expandCategory(cat)"></span>
@@ -50,7 +50,15 @@
                             <img src="app/content/images/noPic.jpg"  style="width: 100%;height: 100%" alt="...">
                         </div>
                         <div class="col-md-8 col-sm-8 col-xs-8">
-                            <input class="form-control" ng-model="p.name" type="text" required>
+                            <div class="form-group">
+                                <label>{{'TITLE' | translate}}</label>
+                                <input type="text" class="form-control" ng-model="p.name" type="text" required>
+                            </div>
+                            <div class="form-group">
+                                <label>{{'PRICE' | translate}}</label>
+                                <input type="number" class="form-control" ng-model="p.price" type="text" required>
+                            </div>
+
                             <div class="items-ctrl">
                                 <span class="glyphicon glyphicon-trash" ng-click="removeProduct(cat,p)"></span>
                             </div>

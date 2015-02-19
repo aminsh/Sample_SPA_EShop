@@ -27,7 +27,8 @@ define(['app'],function(app){
                            return {
                                Id: p.id,
                                Name: p.name,
-                               ImageId: p.imageId
+                               ImageId: p.imageId,
+                               Price: p.price
                            }})
                    };
                });
@@ -51,6 +52,7 @@ define(['app'],function(app){
         self.id = item.Id;
         self.name = item.Name;
         self.imageUrl = item.ImageUrl;
+        self.price = item.Price;
         self.products = isNullOrEmpty(item.Products)
             ? []
             : item.Products.select(function(p){return new product(p);});

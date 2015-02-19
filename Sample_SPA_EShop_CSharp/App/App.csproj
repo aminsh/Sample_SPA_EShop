@@ -40,6 +40,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Data.Edm, Version=5.6.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Data.Edm.5.6.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
@@ -244,15 +250,28 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\MappingConfig.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.RavenDb\DataAccess.RavenDb.csproj">
+      <Project>{2CF0B397-B058-42D2-98AB-2EB63619E4E7}</Project>
+      <Name>DataAccess.RavenDb</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain.Model\Domain.Model.csproj">
       <Project>{bcd713d7-c085-4dc9-b96a-4e180303d1da}</Project>
       <Name>Domain.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.Data\Domain.Data.csproj">
+      <Project>{9b483e65-acd4-4b41-8b03-849ff49101f3}</Project>
+      <Name>Domain.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domain\Domain.Service\Domain.Service.csproj">
+      <Project>{AE0098FF-DB90-4C8C-8A2B-5820F96BEB1C}</Project>
+      <Name>Domain.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -284,6 +303,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

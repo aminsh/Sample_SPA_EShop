@@ -10,7 +10,7 @@ namespace Domain.Data
         void Add(TEntity entity);
         void Modify(TEntity entity);
         void Delete(TEntity entity);
-        TEntity FindById(Guid id);
+        TEntity FindById(int id);
         TEntity Find(Expression<Func<TEntity, bool>> expression);
         IQueryable<TEntity> Query();
     }

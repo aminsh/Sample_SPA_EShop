@@ -10,6 +10,7 @@
         'angular-route': 'lib/external/angular-route.min',
         'angular-resource': 'lib/external/angular-resource.min',
         'angular-sanitize': 'lib/external/angular-sanitize.min',
+        'angular-translate': 'lib/external/angular-translate',
         'linq': 'lib/external/linq.min',
         'helper-window': 'lib/helper/helper.window',
         'helper_array': 'lib/helper/helper.array',
@@ -49,6 +50,10 @@
         'angular-sanitize': {
             deps: ['angular'],
             exports: 'angular-sanitize'
+        },
+        'angular-translate':{
+            deps: ['angular'],
+            exports: 'angular-translate'
         },
         'Q': {
           exports: 'Q'
@@ -114,10 +119,12 @@ require([
     'angular-route',
     'angular-resource',
     'angular-sanitize',
+    'angular-translate',
     'helper-window',
     'helper_array',
     'app',
     'config.route',
+    'config.translate',
     'controllers/shellController',
     'Q',
     'bootstrap',

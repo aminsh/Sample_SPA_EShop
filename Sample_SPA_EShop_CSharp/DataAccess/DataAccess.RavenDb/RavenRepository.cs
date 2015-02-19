@@ -31,7 +31,7 @@ namespace DataAccess.RavenDB
             Session.Delete(entity);
         }
 
-        public TEntity FindById(Guid id)
+        public TEntity FindById(int id)
         {
            return Session.Load<TEntity>(id);
         }

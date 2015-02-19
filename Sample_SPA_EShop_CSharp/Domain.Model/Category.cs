@@ -10,6 +10,6 @@ namespace Domain.Model
     {
         public string Name { get; set; }
         public string ImageUrl { get; set; }
-        public IEnumerable<Product> Products { get; set; }
+        public ICollection<Product> Products { get; set; }
     }
 }

@@ -7,6 +7,7 @@
         'ngResource',
         'ngSanitize',
         'routeResolverService',
+        'pascalprecht.translate'
     ]);
 
     //app.controller('shell',controllers.shellController);

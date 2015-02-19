@@ -25,7 +25,10 @@ define([
 
         $scope.save = function(form){
             debugger;
-            categoryService.save($scope.categories);
+            categoryService.save($scope.categories)
+                .then(function(result){
+                    $scope.categories = result;
+                });
         };
 
         $scope.addCategory = function(){
@@ -33,7 +36,8 @@ define([
                 id: 0,
                 name: '',
                 imageId: 0,
-                imageUrl: 0
+                imageUrl: 0,
+                products: []
             });
         };
 

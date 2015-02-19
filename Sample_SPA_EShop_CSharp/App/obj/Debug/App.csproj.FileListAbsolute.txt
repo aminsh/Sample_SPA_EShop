@@ -62,3 +62,14 @@ D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Abstractio
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Abstractions.xml
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Client.Lightweight.pdb
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Raven.Client.Lightweight.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\DataAccess.RavenDb.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Domain.Data.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Domain.Service.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\DataAccess.RavenDb.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Domain.Data.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Domain.Service.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.Net4.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.Net4.pdb
