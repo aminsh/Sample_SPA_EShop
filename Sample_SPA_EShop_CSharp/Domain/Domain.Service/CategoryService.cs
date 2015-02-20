@@ -3,41 +3,50 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core;
 using DataAccess.RavenDB;
 using Domain.Model;
 using Domain.Data;
+using Domain.Service.Utility;
 
 namespace Domain.Service
 {
     public class CategoryService
     {
         private readonly IRepositoy<Category> _categoryRepository;
-        public CategoryService(IRepositoy<Category> categoryRepositoy)
+        private readonly IResult _result;
+
+        public CategoryService(IUnitOfWork unitOfWork, IResult result)
         {
-            _categoryRepository = categoryRepositoy;
+            _categoryRepository = unitOfWork.GetRepository<Category>();
+            _result = result;
         }
+
         public void Create(Category category)
         {
             GerarateIdForProduct(category);
-                            
-            _categoryRepository.Add(category);
+            
+            if(string.IsNullOrWhiteSpace(category.Name))
+                _result.Errors.Add(new Error{Message = "نام گروه خالی است"});
+            Repository<Category>.Instance.Add(category);
         }
 
         public void Update(Category category)
         {
+            var categoryRepository = Repository<Category>.Instance;
             GerarateIdForProduct(category);
 
-            var item = _categoryRepository.FindById(category.Id);
+            var item = categoryRepository.FindById(category.Id);
             item.ImageUrl = category.ImageUrl;
             item.Name = category.Name;
             item.Products = category.Products;
 
-            _categoryRepository.Modify(item);
+            categoryRepository.Modify(item);
         }
 
         public void Remove(Category category)
         {
-            _categoryRepository.Delete(category);
+            Repository<Category>.Instance.Delete(category);
         }
 
         private static void GerarateIdForProduct(Category category)

@@ -47,8 +47,13 @@
   <ItemGroup>
     <Compile Include="CategoryService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility\Repository.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Core\Core.csproj">
+      <Project>{310da075-8d29-4164-87db-8dba4eb50117}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\DataAccess\DataAccess.RavenDb\DataAccess.RavenDb.csproj">
       <Project>{2cf0b397-b058-42d2-98ab-2eb63619e4e7}</Project>
       <Name>DataAccess.RavenDb</Name>
@@ -63,6 +68,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

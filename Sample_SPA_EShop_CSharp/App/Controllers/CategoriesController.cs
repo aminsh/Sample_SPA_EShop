@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 using System.Web.Http.OData;
+using System.Web.Http.OData.Extensions;
+using App.Utility;
+using Core;
 using DataAccess.RavenDB;
 using Domain.Model;
 using Domain.Service;
@@ -16,23 +20,25 @@ namespace App.Controllers
     [RoutePrefix("api/categories")]
     public class CategoryController : ApiController
     {
-        private CategoryService CategoryService { get; set; }
-        private IRepositoy<Category> CategoryRepositoy { get; set; }
+        private readonly CategoryService _categoryService;
+        private readonly IRepositoy<Category> _categoryRepositoy;
 
-        public IUnitOfWork UnitOfWork { get; set; }
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IResult _result;
 
-        public CategoryController()
+        public CategoryController(IUnitOfWork unitOfWork , IResult result, CategoryService categoryService)
         {
-            UnitOfWork = new RavenUnitOfWork();
-            CategoryRepositoy = UnitOfWork.GetRepository<Category>();
-            CategoryService = new CategoryService(CategoryRepositoy);
+            _unitOfWork = unitOfWork;
+            _categoryRepositoy = _unitOfWork.GetRepository<Category>();
+            _categoryService = categoryService;
+            _result = result;
         }
 
         [Route("")]
         [HttpGet]
         public IEnumerable<Category> Get()
         {
-            return CategoryRepositoy.Query().ToList();
+            return _categoryRepositoy.Query().ToList();
             //return new List<Category>
             //{
             //    new Category {Id = 1, Name = "Cat 1"},
@@ -46,24 +52,30 @@ namespace App.Controllers
         [HttpGet]
         public Category Get(int id)
         {
-            return CategoryRepositoy.FindById(id);
+            return _categoryRepositoy.FindById(id);
         }
 
         [Route("")]
         [HttpPost]
         public HttpResponseMessage Post(IList<Category> categories)
         {
-            var storedCats = CategoryRepositoy.Query().ToList();
+            
+            var storedCats = _categoryRepositoy.Query().ToList();
             var updated = categories.Where(c => storedCats.Any(cat=> cat.Id == c.Id));
             var created = categories.Where(c => storedCats.All(cat => cat.Id != c.Id));
             var deleted = storedCats.Where(c => categories.All(cat => cat.Id != c.Id));
 
-            updated.ForEach(item => CategoryService.Update(item));
-            created.ForEach(item => CategoryService.Create(item));
-            deleted.ForEach(item => CategoryService.Remove(item));
+            updated.ForEach(item => _categoryService.Update(item));
+            created.ForEach(item => _categoryService.Create(item));
+            deleted.ForEach(item => _categoryService.Remove(item));
 
-            UnitOfWork.Commit();
-            return Request.CreateResponse(Get());
+            if (_result.IsValid)
+            {
+                _unitOfWork.Commit();
+                return Request.CreateResponse(_categoryRepositoy.Query().ToList());
+            }
+
+            return Request.ToExceptionResponse(_result);
         }
     }
 }

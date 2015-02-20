@@ -73,3 +73,15 @@ D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.pdb
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.xml
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.Net4.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Core.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\StructureMap.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Core.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Practices.Unity.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Unity.WebApi.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Practices.Unity.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Host.HttpListener.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Hosting.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Host.HttpListener.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Hosting.xml
