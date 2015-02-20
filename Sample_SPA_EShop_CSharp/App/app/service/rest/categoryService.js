@@ -22,7 +22,7 @@ define(['app'],function(app){
                    return {
                        Id: c.id,
                        Name: c.name,
-                       ImageId: c.imageId,
+                       ImageKey: c.image.key,
                        Products: c.products.select(function(p){
                            return {
                                Id: p.id,
@@ -51,7 +51,9 @@ define(['app'],function(app){
 
         self.id = item.Id;
         self.name = item.Name;
-        self.imageUrl = item.ImageUrl;
+        self.image = isNullOrEmpty(item.Image)
+            ? null
+            :{key: item.Image.Key, bigUrl: item.Image.BigUrl, smallUrl: item.Image.SmallUrl};
         self.price = item.Price;
         self.products = isNullOrEmpty(item.Products)
             ? []

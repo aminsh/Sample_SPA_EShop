@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Category.cs" />
     <Compile Include="EntityBase.cs" />
+    <Compile Include="Image.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="OrderDetail.cs" />
     <Compile Include="Product.cs" />

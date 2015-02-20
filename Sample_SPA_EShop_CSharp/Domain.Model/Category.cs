@@ -9,7 +9,7 @@ namespace Domain.Model
     public class Category : EntityBase
     {
         public string Name { get; set; }
-        public string ImageUrl { get; set; }
+        public Guid ImageKey { get; set; }
         public ICollection<Product> Products { get; set; }
     }
 }

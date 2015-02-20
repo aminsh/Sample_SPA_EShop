@@ -5,7 +5,10 @@ define(['app'],function(app){
             'NEW': 'جدید',
             'NEW PRODUCT': 'محصول جدید',
             'TITLE': 'عنوان',
-            'PRICE': 'قیمت'
+            'PRICE': 'قیمت',
+            'CONFIRM': 'تایید',
+            'CANCEL': 'انصراف',
+            'SELECT IMAGE': 'انتخاب عکس'
         });
 
         $translateProvider.translations('de', {

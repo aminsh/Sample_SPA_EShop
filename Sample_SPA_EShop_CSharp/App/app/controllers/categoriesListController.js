@@ -1,11 +1,14 @@
 define([
     'app',
-    'service/rest/categoryService'
+    'service/rest/categoryService',
+    'directives/imageuploader'
 ], function(app){
 
     app.register.controller('categoriesListController',function($scope,categoryService){
         $scope.title = 'مدیریت محصولات';
         $scope.categories = [];
+        $scope.currentCategory = {};
+        $scope.selectedImage = {};
 
         function init(){
             categoryService.get()
@@ -35,8 +38,7 @@ define([
             $scope.categories.push({
                 id: 0,
                 name: '',
-                imageId: 0,
-                imageUrl: 0,
+                image: {},
                 products: []
             });
         };
@@ -49,8 +51,7 @@ define([
             category.products.push({
                 id: 0,
                 name: '',
-                imageId: 0,
-                imageUrl: 0
+                image: {}
             });
         };
 
@@ -60,6 +61,28 @@ define([
 
         $scope.expandCategory = function(category){
             category.canShowProduct = !category.canShowProduct;
+        };
+
+        $scope.afterUploadAction = function(image){
+            $scope.selectedImage = image;
+        };
+
+        $scope.assignImageToCategory = function(category , images){
+            debugger;
+            var img = images.first();
+            var image = category.image;
+
+            image.key = img.Key;
+            image.bigUrl = img.BigUrl;
+            image.smallUrl = img.SmallUrl;
+        }
+
+        $scope.cancelAssignImageToCategory = function(){
+            $scope.currentCategory = {};
+        };
+
+        $scope.selectImage = function(category){
+            $scope.currentCategory = category;
         };
     });
 });

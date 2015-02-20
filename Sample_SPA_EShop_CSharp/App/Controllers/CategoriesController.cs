@@ -8,6 +8,7 @@ using System.Web.Http;
 using System.Web.Http.OData;
 using System.Web.Http.OData.Extensions;
 using App.Utility;
+using App.ViewModels;
 using Core;
 using DataAccess.RavenDB;
 using Domain.Model;
@@ -36,21 +37,20 @@ namespace App.Controllers
 
         [Route("")]
         [HttpGet]
-        public IEnumerable<Category> Get()
+        public object Get()
         {
-            return _categoryRepositoy.Query().ToList();
-            //return new List<Category>
-            //{
-            //    new Category {Id = 1, Name = "Cat 1"},
-            //    new Category {Id = 2, Name = "Cat 2"},
-            //    new Category {Id = 3, Name = "Cat 3"},
-            //    new Category {Id = 4, Name = "Cat 4"}
-            //}.AsQueryable();
+            return _categoryRepositoy.Query().ToList().Select(c => new
+            {
+                c.Id,
+                c.Name,
+                c.Products,
+                Image = ImageView.Map(c.ImageKey)
+            });
         }
 
         [Route("{id}")]
         [HttpGet]
-        public Category Get(int id)
+        public Category Get(Guid id)
         {
             return _categoryRepositoy.FindById(id);
         }

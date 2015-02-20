@@ -24,6 +24,7 @@ namespace Domain.Service
 
         public void Create(Category category)
         {
+            category.Id = Guid.NewGuid();
             GerarateIdForProduct(category);
             
             if(string.IsNullOrWhiteSpace(category.Name))
@@ -37,7 +38,7 @@ namespace Domain.Service
             GerarateIdForProduct(category);
 
             var item = categoryRepository.FindById(category.Id);
-            item.ImageUrl = category.ImageUrl;
+            item.ImageKey = category.ImageKey;
             item.Name = category.Name;
             item.Products = category.Products;
 
@@ -54,12 +55,8 @@ namespace Domain.Service
             category.Products.ToList()
                 .ForEach(p =>
                 {
-                    if (p.Id == 0)
-                        p.Id =
-                            Convert.ToInt32(
-                                String.Format("{0}{1}", 
-                                category.Id, 
-                                category.Products.ToList().IndexOf(p)));
+                    if (p.Id == Guid.Empty)
+                        p.Id = Guid.NewGuid();
                 });
         }
     }
