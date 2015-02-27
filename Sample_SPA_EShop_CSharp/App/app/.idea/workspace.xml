@@ -23,49 +23,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="categoriesList.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="categoriesList.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/categoriesList.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="102" selection-start="1118" selection-end="1118" vertical-scroll-proportion="2.0384614" vertical-offset="683" max-vertical-offset="2205">
+            <state line="12" column="37" selection-start="283" selection-end="283" vertical-scroll-proportion="0.38518518" vertical-offset="0" max-vertical-offset="1170">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#content#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#content#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modal.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/modal.js">
+      <file leaf-file-name="config.route.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.route.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+            <state line="104" column="35" selection-start="3856" selection-end="3869" vertical-scroll-proportion="0.0" vertical-offset="1115" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modalbody.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/modalbody.js">
+      <file leaf-file-name="categoryEditController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/categoryEditController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+            <state line="14" column="11" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3240">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modalfooter.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/directives/modalfooter.js">
+      <file leaf-file-name="categoryEdit.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/categoryEdit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
-              <folding />
+            <state line="25" column="12" selection-start="634" selection-end="802" vertical-scroll-proportion="-24.115385" vertical-offset="198" max-vertical-offset="3069">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#form#0;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#form#0;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#form#0;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#1;n#form#0;n#content#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#modalbody#0;n#modal#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.translate.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.translate.js">
+      <file leaf-file-name="categoriesListController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/categoriesListController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+            <state line="11" column="25" selection-start="354" selection-end="354" vertical-scroll-proportion="-2.2" vertical-offset="132" max-vertical-offset="2442">
               <folding />
             </state>
           </provider>
@@ -74,35 +81,19 @@
       <file leaf-file-name="content.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/directives/content.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="4" column="56" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="imageuploader.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directives/imageuploader.js">
+      <file leaf-file-name="content-template.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/directives/templates/content-template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="50" selection-start="119" selection-end="381" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="936">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categoriesListController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/categoriesListController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="26" selection-start="2304" selection-end="2315" vertical-scroll-proportion="0.0" vertical-offset="1813" max-vertical-offset="2375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="categoryService.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/rest/categoryService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="45" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1716">
-              <folding />
+            <state line="3" column="64" selection-start="189" selection-end="189" vertical-scroll-proportion="-2.7692308" vertical-offset="0" max-vertical-offset="360">
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -117,30 +108,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/service/routeResolver.js" />
-        <option value="$PROJECT_DIR$/service/rest/productService.js" />
-        <option value="$PROJECT_DIR$/model/category.js" />
-        <option value="$PROJECT_DIR$/model/product.js" />
-        <option value="$PROJECT_DIR$/lib/helper/helper.window.js" />
-        <option value="$PROJECT_DIR$/lib/helper/helper.array.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/main.js" />
-        <option value="$PROJECT_DIR$/directives/imageuploader.js" />
+        <option value="$PROJECT_DIR$/directives/modalfooter.js" />
+        <option value="$PROJECT_DIR$/directives/modalbody.js" />
+        <option value="$PROJECT_DIR$/directives/no-tag.js" />
+        <option value="$PROJECT_DIR$/directives/templates/modal-template.html" />
+        <option value="$PROJECT_DIR$/directives/modal.js" />
+        <option value="$PROJECT_DIR$/directives/content.js" />
+        <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/controllers/categoryEdit.js" />
         <option value="$PROJECT_DIR$/service/rest/categoryService.js" />
         <option value="$PROJECT_DIR$/controllers/categoriesListController.js" />
         <option value="$PROJECT_DIR$/config.translate.js" />
+        <option value="$PROJECT_DIR$/directives/templates/content-template.html" />
+        <option value="$PROJECT_DIR$/views/categoryEdit.html" />
+        <option value="$PROJECT_DIR$/config.route.js" />
+        <option value="$PROJECT_DIR$/controllers/categoryEditController.js" />
         <option value="$PROJECT_DIR$/views/categoriesList.html" />
-        <option value="$PROJECT_DIR$/directives/modal.js" />
-        <option value="$PROJECT_DIR$/directives/modalbody.js" />
-        <option value="$PROJECT_DIR$/directives/modalfooter.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -271,7 +262,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,8 +310,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -304,6 +327,14 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -312,14 +343,6 @@
       <option name="saveOutputToFile" value="false" />
       <option name="showConsoleOnStdErr" value="false" />
       <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
@@ -345,14 +368,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16455697" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16657881" sideWeight="0.6711111" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32807016" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -381,91 +404,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="32" selection-start="261" selection-end="261" vertical-scroll-proportion="0.1750572" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/productList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="74" selection-start="2022" selection-end="2072" vertical-scroll-proportion="0.3257485" vertical-offset="561" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="17" selection-start="3829" selection-end="3829" vertical-scroll-proportion="0.6304348" vertical-offset="1591" max-vertical-offset="2465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/external/angular-translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.62253195" vertical-offset="536" max-vertical-offset="40052">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/helper/domReady.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/helper/helper.array.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="2" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0" vertical-offset="129" max-vertical-offset="1003">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/helper/contextOnReady.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/directives/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/rest/categoryService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="45" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="1716">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.translate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/categoriesListController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="26" selection-start="2304" selection-end="2315" vertical-scroll-proportion="0.0" vertical-offset="1813" max-vertical-offset="2375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/categoriesList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="102" selection-start="1118" selection-end="1118" vertical-scroll-proportion="2.0384614" vertical-offset="683" max-vertical-offset="2205">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#content#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#content#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/directives/imageuploader.js">
@@ -475,24 +416,118 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/directives/no-tag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/bootstrap-rtl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="23" selection-start="477" selection-end="477" vertical-scroll-proportion="0.21718931" vertical-offset="306" max-vertical-offset="100555">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/directives/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+        <state line="5" column="70" selection-start="173" selection-end="217" vertical-scroll-proportion="0.15446225" vertical-offset="0" max-vertical-offset="1647">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/modalbody.js">
+    <entry file="file://$PROJECT_DIR$/directives/templates/modal-template.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="562">
+        <state line="8" column="0" selection-start="508" selection-end="508" vertical-scroll-proportion="0.16037735" vertical-offset="0" max-vertical-offset="848">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/directives/modalfooter.js">
+    <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="541">
+        <state line="1" column="0" selection-start="1" selection-end="1" vertical-scroll-proportion="0.025943397" vertical-offset="0" max-vertical-offset="848">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/rest/categoryService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="31" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1025">
+          <folding>
+            <element signature="e#137#608#0" expanded="false" />
+            <element signature="e#642#1082#0" expanded="false" />
+            <element signature="e#1985#2814#0" expanded="false" />
+            <element signature="e#2847#3215#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/categoriesListController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="25" selection-start="354" selection-end="354" vertical-scroll-proportion="-2.2" vertical-offset="132" max-vertical-offset="2442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.translate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="288" selection-end="288" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="682">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="56" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/directives/templates/content-template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="64" selection-start="189" selection-end="189" vertical-scroll-proportion="-2.7692308" vertical-offset="0" max-vertical-offset="360">
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/categoryEdit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="634" selection-end="802" vertical-scroll-proportion="-24.115385" vertical-offset="198" max-vertical-offset="3069">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#form#0;n#content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#form#0;n#content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#form#0;n#div#0;n#div#1;n#form#0;n#content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#modalbody#0;n#modal#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/categoryEditController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="11" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="35" selection-start="3856" selection-end="3869" vertical-scroll-proportion="0.0" vertical-offset="1115" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/categoriesList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="37" selection-start="283" selection-end="283" vertical-scroll-proportion="0.38518518" vertical-offset="0" max-vertical-offset="1170">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#content#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#content#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

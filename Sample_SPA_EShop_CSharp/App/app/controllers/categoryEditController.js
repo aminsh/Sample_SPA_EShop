@@ -1,43 +1,57 @@
-define([
-    'app',
+define(['app',
     'service/rest/categoryService',
     'directives/imageuploader',
-    'directives/modal'
-], function(app){
+    'directives/modal'], function(app){
+    app.register.controller('categoryEditController', function($scope, $routeParams, categoryService ,$location){
+        var editMode = '';
 
-    app.register.controller('categoriesListController',function($scope,categoryService){
-        $scope.title = 'مدیریت محصولات';
-        $scope.categories = [];
-        $scope.currentCategory = {};
+        $scope.category = {}
         $scope.selectedImage = {
             Key: '',
             BigUrl: '',
             SmallUrl: 's'
         };
 
-        function init(){
-            categoryService.get()
-                .then(function(result){
-                    $scope.categories = result
-                        .select(function(item){
-                            item.canShowProduct = false;
-                            return item;
-                        });
+        if(isNullOrEmpty($routeParams.id)){
+            $scope.title = 'گروه محصولات جدید';
+            editMode = 'new';
 
-                    if(!$scope.$$phase)
-                        $scope.$apply();
-            });
+            $scope.category = {
+                id: 0,
+                name: '',
+                image: {key: '', bigUrl: 'app/content/images/noPic.jpg', smallUrl: 'app/content/images/noPic.jpg'},
+                products: []
+            }
+        }
+        else{
+            $scope.title = 'ویرایش گروه محصولات';
+            editMode = 'edit';
+
+            categoryService.getById($routeParams.id)
+                .then(function(result){
+                    $scope.category = result;
+                })
         }
 
-        init();
-
         $scope.save = function(form){
-            debugger;
-            categoryService.save($scope.categories)
-                .then(function(result){
-                    $scope.categories = result;
+            if(editMode == 'new')
+                categoryService.post($scope.category)
+                    .then(function(){
+                        $location.path('/ProductManagement');
+                    });
+            else
+                categoryService.put($scope.category)
+                    .then(function(){
+                        $location.path('/ProductManagement');
+                    });
+        }
+
+        $scope.remove = function(){
+            categoryService.remove($scope.category.id)
+                .then(function(){
+                    $location.path('/ProductManagement');
                 });
-        };
+        }
 
         $scope.addCategory = function(){
             $scope.categories.push({
@@ -64,10 +78,6 @@ define([
             category.products.remove(product);
         };
 
-        $scope.expandCategory = function(category){
-            category.canShowProduct = !category.canShowProduct;
-        };
-
         $scope.afterUploadAction = function(image){
             var img = image.first();
             $scope.selectedImage.Key = img.Key;
@@ -82,7 +92,7 @@ define([
             image.key = img.Key;
             image.bigUrl = img.BigUrl;
             image.smallUrl = img.SmallUrl;
-            
+
             $scope.modalOptions.hide();
         }
 
@@ -102,4 +112,3 @@ define([
         $scope.modalOptions = {  };
     });
 });
-

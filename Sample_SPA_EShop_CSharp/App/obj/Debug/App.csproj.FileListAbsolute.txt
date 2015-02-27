@@ -74,7 +74,6 @@ D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.pdb
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.xml
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\AutoMapper.Net4.pdb
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Core.dll
-D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\StructureMap.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Core.pdb
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Practices.Unity.Configuration.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Practices.Unity.dll

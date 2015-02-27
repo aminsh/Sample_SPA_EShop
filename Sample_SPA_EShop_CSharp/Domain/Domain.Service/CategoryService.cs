@@ -45,8 +45,9 @@ namespace Domain.Service
             categoryRepository.Modify(item);
         }
 
-        public void Remove(Category category)
+        public void Remove(Guid id)
         {
+            var category = Repository<Category>.Instance.FindById(id);
             Repository<Category>.Instance.Delete(category);
         }
 

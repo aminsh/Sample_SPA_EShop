@@ -87,6 +87,32 @@
                         content: '<i class="fa fa-dashboard"></i> Dashboard'
                     }
                 }
+            },
+            {
+                url: '/Category/Edit/:id',
+                config: {
+                    name: 'categoryEdit',
+                    templateUrl: 'app/views/categoryEdit.html',
+                    controller: 'app/controllers/categoryEdit',
+                    title: 'Edit Category',
+                    settings: {
+                        nav: 1,
+                        content: '<i class="fa fa-dashboard"></i> Dashboard'
+                    }
+                }
+            },
+            {
+                url: '/Category/New',
+                config: {
+                    name: 'categoryEdit',
+                    templateUrl: 'app/views/categoryEdit.html',
+                    controller: 'app/controllers/categoryEdit',
+                    title: 'Edit Category',
+                    settings: {
+                        nav: 1,
+                        content: '<i class="fa fa-dashboard"></i> Dashboard'
+                    }
+                }
             }
         ];
     }

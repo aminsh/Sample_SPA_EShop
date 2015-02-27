@@ -15,27 +15,76 @@ define(['app'],function(app){
 
                return deferred.promise;
            },
-           save: function(categories){
+           getById: function(id){
                var deferred = $q.defer();
 
-               var cats = categories.select(function(c){
-                   return {
-                       Id: c.id,
-                       Name: c.name,
-                       ImageKey: c.image.key,
-                       Products: c.products.select(function(p){
-                           return {
-                               Id: p.id,
-                               Name: p.name,
-                               ImageId: p.imageId,
-                               Price: p.price
-                           }})
-                   };
-               });
-               $http.post('/api/categories/', cats)
+               $http.get('/api/categories/' + id)
                    .success(function(data){
-                       var categories = data.select(function(item){return new category(item);});
+                       var categories = new category(data);
                        deferred.resolve(categories);
+                   })
+                   .error(function(error){
+                       deferred.reject(error);
+                   });
+
+               return deferred.promise;
+           },
+           post: function(category){
+               var deferred = $q.defer();
+
+               var cat = {
+                   Id: category.id,
+                   Name: category.name,
+                   ImageKey: category.image.key,
+                   Products: category.products.select(function(p){
+                       return {
+                           Id: p.id,
+                           Name: p.name,
+                           ImageId: p.imageId,
+                           Price: p.price
+                       }})
+               };
+               $http.post('/api/categories/', cat)
+                   .success(function(){
+                       deferred.resolve();
+                   })
+                   .error(function(error){
+                       deferred.reject(error);
+                   });
+
+               return deferred.promise;
+           },
+           put: function(category){
+               var deferred = $q.defer();
+
+               var cat = {
+                   Id: category.id,
+                   Name: category.name,
+                   ImageKey: category.image.key,
+                   Products: category.products.select(function(p){
+                       return {
+                           Id: p.id,
+                           Name: p.name,
+                           ImageId: p.imageId,
+                           Price: p.price
+                       }})
+               };
+               $http.put('/api/categories/', cat)
+                   .success(function(){
+                       deferred.resolve();
+                   })
+                   .error(function(error){
+                       deferred.reject(error);
+                   });
+
+               return deferred.promise;
+           },
+           remove: function(id){
+               var deferred = $q.defer();
+
+               $http.delete('/api/categories/', id)
+                   .success(function(){
+                       deferred.resolve();
                    })
                    .error(function(error){
                        deferred.reject(error);

@@ -3,12 +3,16 @@ define(['app'],function(app){
         $translateProvider.translations('fa', {
             'SAVE': 'ذخیره',
             'NEW': 'جدید',
+            'REMOVE': 'حذف',
+            'SHOW': 'نمایش',
             'NEW PRODUCT': 'محصول جدید',
             'TITLE': 'عنوان',
             'PRICE': 'قیمت',
             'CONFIRM': 'تایید',
             'CANCEL': 'انصراف',
-            'SELECT IMAGE': 'انتخاب عکس'
+            'SELECT IMAGE': 'انتخاب عکس',
+            'NAME': 'نام',
+            'NAME IS REQUIRED': 'نام اجباری است'
         });
 
         $translateProvider.translations('de', {

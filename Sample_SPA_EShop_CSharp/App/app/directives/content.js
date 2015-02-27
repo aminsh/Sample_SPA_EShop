@@ -2,12 +2,10 @@ define(['app'], function(app){
     app.directive('content', function(){
         return {
           restrict: 'E',
-          template: '<div ng-transclude ' +
-              'style="padding-left: 20%;padding-right: 20%">' +
-              '</div>',
+          templateUrl: 'app/directives/templates/content-template.html',
           transclude: true,
-          link: function($scope){
-
+          link: function(scope, element , attrs){
+               scope.title = attrs.title;
           }
         };
     });

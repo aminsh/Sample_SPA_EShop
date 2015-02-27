@@ -50,32 +50,53 @@ namespace App.Controllers
 
         [Route("{id}")]
         [HttpGet]
-        public Category Get(Guid id)
+        public object Get(Guid id)
         {
-            return _categoryRepositoy.FindById(id);
+            var cat = _categoryRepositoy.FindById(id);
+
+            return new
+            {
+                cat.Id,
+                cat.Name,
+                cat.Products,
+                Image = ImageView.Map(cat.ImageKey)
+            };
         }
 
         [Route("")]
         [HttpPost]
-        public HttpResponseMessage Post(IList<Category> categories)
+        public HttpResponseMessage Post(Category category)
         {
-            
-            var storedCats = _categoryRepositoy.Query().ToList();
-            var updated = categories.Where(c => storedCats.Any(cat=> cat.Id == c.Id));
-            var created = categories.Where(c => storedCats.All(cat => cat.Id != c.Id));
-            var deleted = storedCats.Where(c => categories.All(cat => cat.Id != c.Id));
+            _categoryService.Create(category);
 
-            updated.ForEach(item => _categoryService.Update(item));
-            created.ForEach(item => _categoryService.Create(item));
-            deleted.ForEach(item => _categoryService.Remove(item));
+            if (!_result.IsValid) return Request.ToExceptionResponse(_result);
 
-            if (_result.IsValid)
-            {
-                _unitOfWork.Commit();
-                return Request.CreateResponse(_categoryRepositoy.Query().ToList());
-            }
+            _unitOfWork.Commit();
+            return Request.CreateResponse();
+        }
 
-            return Request.ToExceptionResponse(_result);
+        [Route("")]
+        [HttpPut]
+        public HttpResponseMessage Put(Category category)
+        {
+            _categoryService.Update(category);
+
+            if (!_result.IsValid) return Request.ToExceptionResponse(_result);
+
+            _unitOfWork.Commit();
+            return Request.CreateResponse();
+        }
+
+        [Route("{id}")]
+        [HttpDelete]
+        public HttpResponseMessage Remove(Guid id)
+        {
+            _categoryService.Remove(id);
+
+            if (!_result.IsValid) return Request.ToExceptionResponse(_result);
+
+            _unitOfWork.Commit();
+            return Request.CreateResponse();
         }
     }
 }

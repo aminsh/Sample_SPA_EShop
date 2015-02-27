@@ -1,6 +1,5 @@
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Core\bin\Debug\Core.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Core\bin\Debug\Core.pdb
-D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Core\bin\Debug\StructureMap.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Core\obj\Debug\Core.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Core\obj\Debug\Core.pdb
