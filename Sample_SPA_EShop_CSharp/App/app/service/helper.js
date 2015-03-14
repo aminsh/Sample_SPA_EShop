@@ -1,7 +1,6 @@
 define(['app'], function(app){
 
     app.register.factory('helper',function($resource,$http, $q){
-        debugger;
         var getKeys = function(obj) {
             var keys = [];
             for (key in obj) {

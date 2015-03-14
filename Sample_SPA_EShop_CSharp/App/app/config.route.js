@@ -63,7 +63,7 @@
                 }
             },
             {
-                url: '/productList',
+                url: '/Search',
                 config: {
                     name: 'productList',
                     templateUrl: 'app/views/productList.html',

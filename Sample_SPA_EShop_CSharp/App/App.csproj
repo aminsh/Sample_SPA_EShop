@@ -275,16 +275,20 @@
     <Compile Include="Config\MappingConfig.cs" />
     <Compile Include="Config\RegisterIOC.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\UploadFileController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="Utility\RequestExtension.cs" />
-    <Compile Include="ViewModels\ImageView.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{310DA075-8D29-4164-87DB-8DBA4EB50117}</Project>
       <Name>Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.Query\DataAccess.Query.csproj">
+      <Project>{8b6d0aee-3301-4d15-8888-b812bb9f66c4}</Project>
+      <Name>DataAccess.Query</Name>
     </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.RavenDb\DataAccess.RavenDb.csproj">
       <Project>{2CF0B397-B058-42D2-98AB-2EB63619E4E7}</Project>
@@ -301,6 +305,10 @@
     <ProjectReference Include="..\Domain\Domain.Service\Domain.Service.csproj">
       <Project>{AE0098FF-DB90-4C8C-8A2B-5820F96BEB1C}</Project>
       <Name>Domain.Service</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{EF83D244-A9BC-459E-8286-BE57300C660B}</Project>
+      <Name>DTO</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

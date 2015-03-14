@@ -1,7 +1,15 @@
-﻿using Domain.Data;
+﻿using System;
+using System.Linq;
+using System.Security.Cryptography;
+using DataAccess.RavenDb;
+using DataAccess.RavenDb.Transformers;
+using Domain.Data;
 using Domain.Model;
+using Raven.Abstractions.Extensions;
+using Raven.Abstractions.Indexing;
 using Raven.Client;
 using Raven.Client.Document;
+using Raven.Client.Indexes;
 
 namespace DataAccess.RavenDB
 {

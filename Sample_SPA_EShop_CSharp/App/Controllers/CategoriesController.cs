@@ -1,20 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Net;
 using System.Net.Http;
-using System.Web;
 using System.Web.Http;
-using System.Web.Http.OData;
-using System.Web.Http.OData.Extensions;
 using App.Utility;
-using App.ViewModels;
 using Core;
-using DataAccess.RavenDB;
 using Domain.Model;
 using Domain.Service;
 using Domain.Data;
-using Raven.Abstractions.Extensions;
+using DTO.ViewModels;
 
 namespace App.Controllers
 {

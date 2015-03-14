@@ -84,3 +84,7 @@ D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.H
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Hosting.dll
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Host.HttpListener.xml
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\Microsoft.Owin.Hosting.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\DataAccess.Query.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\DataAccess.Query.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\DTO.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\App\bin\DTO.pdb

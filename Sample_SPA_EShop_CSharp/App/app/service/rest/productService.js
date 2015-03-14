@@ -1,13 +1,18 @@
-define(['app', 'model/product'],function(app){
-    app.register.factory('productService',function($http, $q , product){
+define(['app'],function(app){
+    app.register.factory('productService',function($http, $q){
         return{
-            get: function(){
+            get: function(param){
                 var deferred = $q.defer();
-
-                return $http.get('/api/products')
+                debugger;
+                return $http.get('/api/products',
+                   {
+                       params: param,
+                       headers: {'Content-Type': 'application/json'}
+                   })
                     .success(function(data){
-                        var products = data.select(function(item){return new product(item);});
-                        deferred.resolve(products);
+                    debugger;
+//                        var products = data.select(function(item){return new product(item);});
+                        deferred.resolve(data);
                     })
                     .error(function(error){
                         deferred.reject(error);
@@ -15,7 +20,7 @@ define(['app', 'model/product'],function(app){
 
                 return deferred.promise;
             },
-            One: function(id){
+            getById: function(id){
                 var deferred = $q.defer();
                 return $http.get('/api/products/' + id)
                     .success(function(result){
@@ -26,15 +31,6 @@ define(['app', 'model/product'],function(app){
                     });
 
                 return deferred.promise;
-            },
-            post: function(product){
-
-            },
-            put: function(product){
-
-            },
-            delete: function(product){
-
             }
         }
     });

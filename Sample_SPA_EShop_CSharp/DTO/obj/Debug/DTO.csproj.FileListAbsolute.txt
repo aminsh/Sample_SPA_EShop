@@ -1,0 +1,15 @@
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\DTO.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\DTO.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\Core.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\System.Web.Http.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\System.Net.Http.Formatting.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\Newtonsoft.Json.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\Core.pdb
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\System.Web.Http.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\System.Net.Http.Formatting.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\bin\Debug\Newtonsoft.Json.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\obj\Debug\DTO.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\DTO\obj\Debug\DTO.pdb

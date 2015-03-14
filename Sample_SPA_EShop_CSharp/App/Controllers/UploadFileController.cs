@@ -6,14 +6,13 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Http;
-using App.ViewModels;
 using Core;
 using Domain.Data;
 using Domain.Service;
+using DTO.ViewModels;
 using Microsoft.Practices.ObjectBuilder2;
 
 namespace App.Controllers

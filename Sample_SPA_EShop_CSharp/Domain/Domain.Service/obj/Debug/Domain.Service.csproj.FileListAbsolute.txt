@@ -31,3 +31,5 @@ D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Service\bi
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Service\bin\Debug\Microsoft.Practices.Unity.xml
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Service\bin\Debug\System.Net.Http.Formatting.xml
 D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Service\bin\Debug\Newtonsoft.Json.xml
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Service\bin\Debug\DTO.dll
+D:\Project\SPA\Sample_SPA_EShop\Sample_SPA_EShop_CSharp\Domain\Domain.Service\bin\Debug\DTO.pdb
