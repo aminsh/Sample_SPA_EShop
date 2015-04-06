@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Sockets;
 using System.Web.Http;
 using App.Utility;
 using Core;
@@ -8,6 +9,7 @@ using Domain.Model;
 using Domain.Service;
 using Domain.Data;
 using DTO.ViewModels;
+using Raven.Client;
 
 namespace App.Controllers
 {
@@ -32,7 +34,8 @@ namespace App.Controllers
         [HttpGet]
         public object Get()
         {
-            return _categoryRepositoy.Query().ToList().Select(c => new
+            var cats = _categoryRepositoy.Query().Search(c => c.Name, "*تست*",escapeQueryOptions: EscapeQueryOptions.AllowAllWildcards).ToList();
+            return _categoryRepositoy.Query().Search(c=>c.Name, "تست").ToList().Select(c => new
             {
                 c.Id,
                 c.Name,
